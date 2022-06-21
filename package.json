@@ -1,0 +1,57 @@
+{
+  "name": "pdd-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@salutejs/client": "^1.2.0",
+    "@sberdevices/assistant-client": "^1.0.5",
+    "@sberdevices/plasma-icons": "^1.12.1",
+    "@sberdevices/plasma-tokens": "^1.3.0",
+    "@sberdevices/plasma-ui": "^1.15.1",
+    "@sberdevices/ui": "^1.0.0-rc.82",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.19.2",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "gh-pages": "^3.1.0",
+    "i": "^0.3.6",
+    "npm": "^8.9.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.0",
+    "typescript": "^4.0.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
